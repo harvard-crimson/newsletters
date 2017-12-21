@@ -1,0 +1,79 @@
+body {
+    font-family: 'Crimson Text', serif;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+#main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#header {
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+#title {
+    font-size: 36px;
+}
+
+.date {
+    float: right;
+}
+
+.preview {
+    display: none;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.seal {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.placeholder {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    background-color: #e27878;
+}
+
+.text {
+    font-size: 17px;
+}
+
+.story {
+}
+
+.story img {
+    width: 100%;
+}
+
+.see-more {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.headline {
+    color: red;
+    font-size: 28px;
+}
+
