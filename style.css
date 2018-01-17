@@ -8,6 +8,10 @@ body {
 
 a {
     color: #327acc;
+    float: right;
+}
+ul {
+    padding-left: 20px;
 }
 #main {
     max-width: 800px;
@@ -17,7 +21,9 @@ a {
 }
 
 #header {
-    height: 25px;
+    font-family: 'Big Caslon', 'Crimson Text', 'Times New Roman', serif;
+    font-size: 16px;
+    height: 20px;
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
@@ -69,11 +75,11 @@ a {
 }
 
 .see-more {
-    font-family: 'Lato', sans-serif;
+    font-family: 'SuecaSans', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .headline {
@@ -103,6 +109,9 @@ a {
     padding: 6px 8px 6px 8px;
 }
 
+.story-opinion > .teaser > a {
+    margin-top: 20px;
+}
 .story-sports {
     padding: 4px 0px 4px 0px;
 }
